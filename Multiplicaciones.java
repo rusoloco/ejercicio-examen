@@ -12,6 +12,8 @@ class Multiplicaciones {
 		int a = 1;
 		int b = 2;
 		int actual = multiplicacion.add(a, b);
+		int expected = 2;
+		assertEquals(expected, actual);
 
 
 
